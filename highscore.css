@@ -1,0 +1,19 @@
+#highscorelist {
+    list-style-type: none; 
+    padding-left: 0;
+    margin-bottom: 4rem;
+}
+
+#highscore {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+#highscore:hover {  /* Removed the space between '#highscore' and ':hover' */
+    transform: scale(1.025);
+    transition: transform 0.2s ease-in-out; /* Added smooth transition */
+}
+#highscorelist li:hover {
+    transform: scale(1.025);
+    transition: transform 0.2s ease-in-out;
+}
